@@ -485,10 +485,10 @@
     }
 
     .projects {
-      @apply py-24 bg-white relative border-b border-zinc-100;
+      @apply min-h-screen py-24 bg-white relative border-b border-zinc-100 flex flex-col justify-center;
 
       .section-inner {
-        @apply max-w-7xl mx-auto px-6;
+        @apply max-w-7xl mx-auto px-6 w-full;
 
         .section-head {
           @apply flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6;
@@ -552,7 +552,7 @@
               }
 
               .arrow {
-                @apply w-10 h-10 rounded-full bg-zinc-50 border border-zinc-200 flex items-center justify-center text-zinc-400 group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all duration-300;
+                @apply w-10 h-10 rounded-full bg-zinc-50 border border-zinc-200 flex items-center justify-center text-black group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all duration-300;
               }
             }
           }
